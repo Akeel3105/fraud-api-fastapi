@@ -1,8 +1,8 @@
 # backend/main.py
 
-from fastapi import FastAPI
+from fastapi import FastAPI,Request
 from pydantic import BaseModel
-from backend.model_utils import predict_fraud
+from model_utils import predict_fraud
 
 app = FastAPI(title="Fraud Detection API")
 
