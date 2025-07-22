@@ -8,7 +8,8 @@ WORKDIR /app
 COPY . /app
 
 # Install dependencies
-RUN pip install --no-cache-dir fastapi uvicorn scikit-learn==1.2.2 pandas joblib
+RUN pip install --no-cache-dir fastapi uvicorn numpy==1.23.5 scikit-learn==1.2.2 pandas joblib
+
 
 # Expose the port FastAPI runs on
 EXPOSE 8000
