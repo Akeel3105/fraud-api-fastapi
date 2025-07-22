@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 
 # Load the trained model
-model = joblib.load(r'D:\fraud-detection-ecommerce\ml\model_fraud_rf.pkl')
+model = joblib.load(r'D:\fraud-detection-ecommerce\backend\model_fraud_rf.pkl')
 
 # Define required features (order must match training!)
 FEATURE_COLUMNS = [
